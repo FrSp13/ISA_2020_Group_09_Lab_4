@@ -1,0 +1,840 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim top 
+# Start time: 13:42:08 on Feb 25,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: ../tb/monitor.sv(49): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.DUT(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.dut_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.fpmul(pipeline)#1
+# Loading work.fpmul_stage1(struct)#1
+# Loading work.unpackfp(unpackfp)#1
+# Loading ieee.numeric_std(body)
+# Loading work.fpmul_stage2(struct)#1
+# Loading work.ppunit(behavior)#1
+# Loading work.dadda_layer_7(behavior)#1
+# Loading work.dadda_layer_6(behavior)#1
+# Loading work.dadda_layer_5(behavior)#1
+# Loading work.mcsa(behavior)#9
+# Loading work.dadda_layer_4(behavior)#1
+# Loading work.dadda_layer_3(behavior)#1
+# Loading work.dadda_layer_2(behavior)#1
+# Loading work.adder(behavior)#1
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fpmul_stage3(struct)#1
+# Loading work.fpnormalize(fpnormalize)#1
+# Loading work.fpround(fpround)#1
+# Loading work.fpmul_stage4(struct)#1
+# Loading work.packfp(packfp)#1
+# ** Warning: (vsim-3839) Variable '/top/out/data', driven via a port connection, is multiply driven. See ../src/DUT.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum File: ../src/DUT.sv Line: 15
+# ** Warning: (vsim-3764) Stand-alone call to function 'begin_tr' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit::driver File: ../tb/driver.sv Line: 67
+# Loading /software/mentor/questa10.7c/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+run 24 us
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I3/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I3/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/FPmul_under_test/I2
+# UVM_INFO @ 0: reporter [RNTST] Running test simple_test...
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 2  Instance: /top/sum/FPmul_under_test/I2
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 3  Instance: /top/sum/FPmul_under_test/I3/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 15 ns  Iteration: 3  Instance: /top/sum/FPmul_under_test/I3/I11
+# 
+# 
+# refmod: input A = 7.2819561958, input B = -6.6691517830, output OUT = -48.5644721985
+# refmod: input A = 01000000111010010000010111001001, input B = 11000000110101010110100110110001, output OUT = 11000010010000100100001000000101
+# FPmul: input FP_A = 7.2819561958, input FP_B = -6.6691517830, output FP_Z = -48.5644721985
+# FPmul: input FP_A = 01000000111010010000010111001001, input FP_B = 11000000110101010110100110110001, output FP_Z = 11000010010000100100001000000101
+# UVM_INFO @ 115: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -12.4766778946, input B = 3.3649439812, output OUT = -41.9833221436
+# refmod: input A = 11000001010001111010000001111001, input B = 01000000010101110101101100111110, output OUT = 11000010001001111110111011101100
+# FPmul: input FP_A = -12.4766778946, input FP_B = 3.3649439812, output FP_Z = -41.9833221436
+# FPmul: input FP_A = 11000001010001111010000001111001, input FP_B = 01000000010101110101101100111110, output FP_Z = 11000010001001111110111011101100
+# UVM_INFO @ 175: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 15.8726539612, input B = 3.4614815712, output OUT = 54.9428977966
+# refmod: input A = 01000001011111011111011001100100, input B = 01000000010111011000100011101010, output OUT = 01000010010110111100010110000111
+# FPmul: input FP_A = 15.8726539612, input FP_B = 3.4614815712, output FP_Z = 54.9428977966
+# FPmul: input FP_A = 01000001011111011111011001100100, input FP_B = 01000000010111011000100011101010, output FP_Z = 01000010010110111100010110000111
+# UVM_INFO @ 235: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.6774334908, input B = 3.7664923668, output OUT = -25.1505031586
+# refmod: input A = 11000000110101011010110110001001, input B = 01000000011100010000111000110110, output OUT = 11000001110010010011010000111011
+# FPmul: input FP_A = -6.6774334908, input FP_B = 3.7664923668, output FP_Z = -25.1505031586
+# FPmul: input FP_A = 11000000110101011010110110001001, input FP_B = 01000000011100010000111000110110, output FP_Z = 11000001110010010011010000111011
+# UVM_INFO @ 295: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.8484406471, input B = 15.4354000092, output OUT = 121.1438217163
+# refmod: input A = 01000000111110110010011001101101, input B = 01000001011101101111011101100110, output OUT = 01000010111100100100100110100011
+# FPmul: input FP_A = 7.8484406471, input FP_B = 15.4354000092, output FP_Z = 121.1438217163
+# FPmul: input FP_A = 01000000111110110010011001101101, input FP_B = 01000001011101101111011101100110, output FP_Z = 01000010111100100100100110100011
+# UVM_INFO @ 355: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.9667997360, input B = -12.7604074478, output OUT = 50.6179809570
+# refmod: input A = 11000000011111011110000000001100, input B = 11000001010011000010101010100001, output OUT = 01000010010010100111100011010000
+# FPmul: input FP_A = -3.9667997360, input FP_B = -12.7604074478, output FP_Z = 50.6179809570
+# FPmul: input FP_A = 11000000011111011110000000001100, input FP_B = 11000001010011000010101010100001, output FP_Z = 01000010010010100111100011010000
+# UVM_INFO @ 415: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.3226675987, input B = 12.6158151627, output OUT = 41.9181594849
+# refmod: input A = 01000000010101001010011010010110, input B = 01000001010010011101101001100001, output OUT = 01000010001001111010110000110010
+# FPmul: input FP_A = 3.3226675987, input FP_B = 12.6158151627, output FP_Z = 41.9181594849
+# FPmul: input FP_A = 01000000010101001010011010010110, input FP_B = 01000001010010011101101001100001, output FP_Z = 01000010001001111010110000110010
+# UVM_INFO @ 475: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.2829732895, input B = 3.5768170357, output OUT = -26.0498638153
+# refmod: input A = 11000000111010010000111000011110, input B = 01000000011001001110101010010010, output OUT = 11000001110100000110011000011111
+# FPmul: input FP_A = -7.2829732895, input FP_B = 3.5768170357, output FP_Z = -26.0498638153
+# FPmul: input FP_A = 11000000111010010000111000011110, input FP_B = 01000000011001001110101010010010, output FP_Z = 11000001110100000110011000011111
+# UVM_INFO @ 535: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.6269011497, input B = -14.2510614395, output OUT = -94.4403762817
+# refmod: input A = 01000000110101000000111110010011, input B = 11000001011001000000010001011001, output OUT = 11000010101111001110000101111001
+# FPmul: input FP_A = 6.6269011497, input FP_B = -14.2510614395, output FP_Z = -94.4403762817
+# FPmul: input FP_A = 01000000110101000000111110010011, input FP_B = 11000001011001000000010001011001, output FP_Z = 11000010101111001110000101111001
+# UVM_INFO @ 595: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.0913176537, input B = 13.2213268280, output OUT = 93.7566299438
+# refmod: input A = 01000000111000101110110000010011, input B = 01000001010100111000101010001110, output OUT = 01000010101110111000001101100101
+# FPmul: input FP_A = 7.0913176537, input FP_B = 13.2213268280, output FP_Z = 93.7566299438
+# FPmul: input FP_A = 01000000111000101110110000010011, input FP_B = 01000001010100111000101010001110, output FP_Z = 01000010101110111000001101100101
+# UVM_INFO @ 655: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 13.5256443024, input B = -6.3621797562, output OUT = -86.0525817871
+# refmod: input A = 01000001010110000110100100001010, input B = 11000000110010111001011011111010, output OUT = 11000010101011000001101011101100
+# FPmul: input FP_A = 13.5256443024, input FP_B = -6.3621797562, output FP_Z = -86.0525817871
+# FPmul: input FP_A = 01000001010110000110100100001010, input FP_B = 11000000110010111001011011111010, output FP_Z = 11000010101011000001101011101100
+# UVM_INFO @ 715: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.7282691002, input B = -7.3622446060, output OUT = 27.4484291077
+# refmod: input A = 11000000011011101001101111110110, input B = 11000000111010111001011110000010, output OUT = 01000001110110111001011001100010
+# FPmul: input FP_A = -3.7282691002, input FP_B = -7.3622446060, output FP_Z = 27.4484291077
+# FPmul: input FP_A = 11000000011011101001101111110110, input FP_B = 11000000111010111001011110000010, output FP_Z = 01000001110110111001011001100010
+# UVM_INFO @ 775: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.2963929176, input B = -15.6873846054, output OUT = -98.7739410400
+# refmod: input A = 01000000110010010111110000001101, input B = 11000001011110101111111110000111, output OUT = 11000010110001011000110001000010
+# FPmul: input FP_A = 6.2963929176, input FP_B = -15.6873846054, output FP_Z = -98.7739410400
+# FPmul: input FP_A = 01000000110010010111110000001101, input FP_B = 11000001011110101111111110000111, output FP_Z = 11000010110001011000110001000010
+# UVM_INFO @ 835: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.4398064613, input B = 3.7377688885, output OUT = -27.8082771301
+# refmod: input A = 11000000111011100001001011100101, input B = 01000000011011110011011110011011, output OUT = 11000001110111100111011101011010
+# FPmul: input FP_A = -7.4398064613, input FP_B = 3.7377688885, output FP_Z = -27.8082771301
+# FPmul: input FP_A = 11000000111011100001001011100101, input FP_B = 01000000011011110011011110011011, output FP_Z = 11000001110111100111011101011010
+# UVM_INFO @ 895: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.9940376282, input B = 3.3426184654, output OUT = 43.4341087341
+# refmod: input A = 01000001010011111110011110010100, input B = 01000000010101011110110101110110, output OUT = 01000010001011011011110010000111
+# FPmul: input FP_A = 12.9940376282, input FP_B = 3.3426184654, output FP_Z = 43.4341087341
+# FPmul: input FP_A = 01000001010011111110011110010100, input FP_B = 01000000010101011110110101110110, output FP_Z = 01000010001011011011110010000111
+# UVM_INFO @ 955: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.7897076607, input B = -7.2561969757, output OUT = -49.2674560547
+# refmod: input A = 01000000110110010100010101001001, input B = 11000000111010000011001011000100, output OUT = 11000010010001010001000111100000
+# FPmul: input FP_A = 6.7897076607, input FP_B = -7.2561969757, output FP_Z = -49.2674560547
+# FPmul: input FP_A = 01000000110110010100010101001001, input FP_B = 11000000111010000011001011000100, output FP_Z = 11000010010001010001000111100000
+# UVM_INFO @ 1015: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.0319924355, input B = 13.2956495285, output OUT = -93.4949035645
+# refmod: input A = 11000000111000010000011000010101, input B = 01000001010101001011101011111011, output OUT = 11000010101110101111110101100100
+# FPmul: input FP_A = -7.0319924355, input FP_B = 13.2956495285, output FP_Z = -93.4949035645
+# FPmul: input FP_A = 11000000111000010000011000010101, input FP_B = 01000001010101001011101011111011, output FP_Z = 11000010101110101111110101100100
+# UVM_INFO @ 1075: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.9442844391, input B = -6.8073787689, output OUT = -88.1166458130
+# refmod: input A = 01000001010011110001101111001010, input B = 11000000110110011101011000001100, output OUT = 11000010101100000011101110111001
+# FPmul: input FP_A = 12.9442844391, input FP_B = -6.8073787689, output FP_Z = -88.1166458130
+# FPmul: input FP_A = 01000001010011110001101111001010, input FP_B = 11000000110110011101011000001100, output FP_Z = 11000010101100000011101110111001
+# UVM_INFO @ 1135: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.9983246326, input B = 3.9662864208, output OUT = -15.8585004807
+# refmod: input A = 11000000011111111110010010001101, input B = 01000000011111011101011110100011, output OUT = 11000001011111011011110001101011
+# FPmul: input FP_A = -3.9983246326, input FP_B = 3.9662864208, output FP_Z = -15.8585004807
+# FPmul: input FP_A = 11000000011111111110010010001101, input FP_B = 01000000011111011101011110100011, output FP_Z = 11000001011111011011110001101011
+# UVM_INFO @ 1195: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.7752723694, input B = 3.7721841335, output OUT = -14.2410221100
+# refmod: input A = 11000000011100011001111000010000, input B = 01000000011100010110101101110111, output OUT = 11000001011000111101101100111010
+# FPmul: input FP_A = -3.7752723694, input FP_B = 3.7721841335, output FP_Z = -14.2410221100
+# FPmul: input FP_A = 11000000011100011001111000010000, input FP_B = 01000000011100010110101101110111, output FP_Z = 11000001011000111101101100111010
+# UVM_INFO @ 1255: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.0490992069, input B = -7.7431492805, output OUT = 23.6096305847
+# refmod: input A = 11000000010000110010010001110001, input B = 11000000111101111100011111100001, output OUT = 01000001101111001110000010000110
+# FPmul: input FP_A = -3.0490992069, input FP_B = -7.7431492805, output FP_Z = 23.6096305847
+# FPmul: input FP_A = 11000000010000110010010001110001, input FP_B = 11000000111101111100011111100001, output FP_Z = 01000001101111001110000010000110
+# UVM_INFO @ 1315: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.4733822346, input B = -13.6389293671, output OUT = 47.3732147217
+# refmod: input A = 11000000010111100100101111100101, input B = 11000001010110100011100100001110, output OUT = 01000010001111010111111000101100
+# FPmul: input FP_A = -3.4733822346, input FP_B = -13.6389293671, output FP_Z = 47.3732147217
+# FPmul: input FP_A = 11000000010111100100101111100101, input FP_B = 11000001010110100011100100001110, output FP_Z = 01000010001111010111111000101100
+# UVM_INFO @ 1375: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.0281014442, input B = -3.5527231693, output OUT = -21.4161758423
+# refmod: input A = 01000000110000001110011000110101, input B = 11000000011000110101111111010001, output OUT = 11000001101010110101010001010100
+# FPmul: input FP_A = 6.0281014442, input FP_B = -3.5527231693, output FP_Z = -21.4161758423
+# FPmul: input FP_A = 01000000110000001110011000110101, input FP_B = 11000000011000110101111111010001, output FP_Z = 11000001101010110101010001010100
+# UVM_INFO @ 1435: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.6150674820, input B = 6.1322369576, output OUT = -89.6230545044
+# refmod: input A = 11000001011010011101011101010001, input B = 01000000110001000011101101001001, output OUT = 11000010101100110011111100000001
+# FPmul: input FP_A = -14.6150674820, input FP_B = 6.1322369576, output FP_Z = -89.6230545044
+# FPmul: input FP_A = 11000001011010011101011101010001, input FP_B = 01000000110001000011101101001001, output FP_Z = 11000010101100110011111100000001
+# UVM_INFO @ 1495: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.0523500443, input B = 6.4671173096, output OUT = -45.6083755493
+# refmod: input A = 11000000111000011010110011011010, input B = 01000000110011101111001010100000, output OUT = 11000010001101100110111011111010
+# FPmul: input FP_A = -7.0523500443, input FP_B = 6.4671173096, output FP_Z = -45.6083755493
+# FPmul: input FP_A = 11000000111000011010110011011010, input FP_B = 01000000110011101111001010100000, output FP_Z = 11000010001101100110111011111010
+# UVM_INFO @ 1555: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.6980977058, input B = 3.7973012924, output OUT = 25.4346942902
+# refmod: input A = 01000000110101100101011011010001, input B = 01000000011100110000011011111100, output OUT = 01000001110010110111101001000001
+# FPmul: input FP_A = 6.6980977058, input FP_B = 3.7973012924, output FP_Z = 25.4346942902
+# FPmul: input FP_A = 01000000110101100101011011010001, input FP_B = 01000000011100110000011011111100, output FP_Z = 01000001110010110111101001000001
+# UVM_INFO @ 1615: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.4316520691, input B = 3.1717569828, output OUT = 23.5713939667
+# refmod: input A = 01000000111011011101000000011000, input B = 01000000010010101111111000010001, output OUT = 01000001101111001001001000110111
+# FPmul: input FP_A = 7.4316520691, input FP_B = 3.1717569828, output FP_Z = 23.5713939667
+# FPmul: input FP_A = 01000000111011011101000000011000, input FP_B = 01000000010010101111111000010001, output FP_Z = 01000001101111001001001000110111
+# UVM_INFO @ 1675: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.4828932285, input B = -14.6083650589, output OUT = 50.8793754578
+# refmod: input A = 11000000010111101110011110111001, input B = 11000001011010011011101111011101, output OUT = 01000010010010111000010001111011
+# FPmul: input FP_A = -3.4828932285, input FP_B = -14.6083650589, output FP_Z = 50.8793754578
+# FPmul: input FP_A = 11000000010111101110011110111001, input FP_B = 11000001011010011011101111011101, output FP_Z = 01000010010010111000010001111011
+# UVM_INFO @ 1735: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.4203341007, input B = 12.7620983124, output OUT = 43.6506385803
+# refmod: input A = 01000000010110101110011011000001, input B = 01000001010011000011000110001110, output OUT = 01000010001011101001101001000001
+# FPmul: input FP_A = 3.4203341007, input FP_B = 12.7620983124, output FP_Z = 43.6506385803
+# FPmul: input FP_A = 01000000010110101110011011000001, input FP_B = 01000001010011000011000110001110, output FP_Z = 01000010001011101001101001000001
+# UVM_INFO @ 1795: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.5337381363, input B = 6.8234128952, output OUT = -44.5823936462
+# refmod: input A = 11000000110100010001010001100010, input B = 01000000110110100101100101100110, output OUT = 11000010001100100101010001011111
+# FPmul: input FP_A = -6.5337381363, input FP_B = 6.8234128952, output FP_Z = -44.5823936462
+# FPmul: input FP_A = 11000000110100010001010001100010, input FP_B = 01000000110110100101100101100110, output FP_Z = 11000010001100100101010001011111
+# UVM_INFO @ 1855: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.4925355911, input B = 3.9823029041, output OUT = -25.8552436829
+# refmod: input A = 11000000110011111100001011011010, input B = 01000000011111101101111000001101, output OUT = 11000001110011101101011110001010
+# FPmul: input FP_A = -6.4925355911, input FP_B = 3.9823029041, output FP_Z = -25.8552436829
+# FPmul: input FP_A = 11000000110011111100001011011010, input FP_B = 01000000011111101101111000001101, output FP_Z = 11000001110011101101011110001010
+# UVM_INFO @ 1915: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.5184104443, input B = 7.3096117973, output OUT = 25.7182140350
+# refmod: input A = 01000000011000010010110110100011, input B = 01000000111010011110100001010111, output OUT = 01000001110011011011111011100111
+# FPmul: input FP_A = 3.5184104443, input FP_B = 7.3096117973, output FP_Z = 25.7182140350
+# FPmul: input FP_A = 01000000011000010010110110100011, input FP_B = 01000000111010011110100001010111, output FP_Z = 01000001110011011011111011100111
+# UVM_INFO @ 1975: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.0547127724, input B = -13.2055892944, output OUT = -93.1616363525
+# refmod: input A = 01000000111000011100000000110101, input B = 11000001010100110100101000011000, output OUT = 11000010101110100101001011000010
+# FPmul: input FP_A = 7.0547127724, input FP_B = -13.2055892944, output FP_Z = -93.1616363525
+# FPmul: input FP_A = 01000000111000011100000000110101, input FP_B = 11000001010100110100101000011000, output FP_Z = 11000010101110100101001011000010
+# UVM_INFO @ 2035: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -12.0790119171, input B = -3.9391422272, output OUT = 47.5809440613
+# refmod: input A = 11000001010000010100001110100010, input B = 11000000011111000001101011101000, output OUT = 01000010001111100101001011100011
+# FPmul: input FP_A = -12.0790119171, input FP_B = -3.9391422272, output FP_Z = 47.5809440613
+# FPmul: input FP_A = 11000001010000010100001110100010, input FP_B = 11000000011111000001101011101000, output FP_Z = 01000010001111100101001011100011
+# UVM_INFO @ 2095: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 15.4680194855, input B = 7.9804296494, output OUT = 123.4414443970
+# refmod: input A = 01000001011101110111110100000010, input B = 01000000111111110101111110101110, output OUT = 01000010111101101110001000000101
+# FPmul: input FP_A = 15.4680194855, input FP_B = 7.9804296494, output FP_Z = 123.4414443970
+# FPmul: input FP_A = 01000001011101110111110100000010, input FP_B = 01000000111111110101111110101110, output FP_Z = 01000010111101101110001000000101
+# UVM_INFO @ 2155: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.8884630203, input B = 13.2034654617, output OUT = 170.1723785400
+# refmod: input A = 01000001010011100011011100100101, input B = 01000001010100110100000101100101, output OUT = 01000011001010100010110000100001
+# FPmul: input FP_A = 12.8884630203, input FP_B = 13.2034654617, output FP_Z = 170.1723785400
+# FPmul: input FP_A = 01000001010011100011011100100101, input FP_B = 01000001010100110100000101100101, output FP_Z = 01000011001010100010110000100001
+# UVM_INFO @ 2215: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.2966356277, input B = 7.6622877121, output OUT = -25.2597713470
+# refmod: input A = 11000000010100101111110000010100, input B = 01000000111101010011000101110110, output OUT = 11000001110010100001010000000011
+# FPmul: input FP_A = -3.2966356277, input FP_B = 7.6622877121, output FP_Z = -25.2597713470
+# FPmul: input FP_A = 11000000010100101111110000010100, input FP_B = 01000000111101010011000101110110, output FP_Z = 11000001110010100001010000000011
+# UVM_INFO @ 2275: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.2880060673, input B = 7.1565561295, output OUT = -23.5307998657
+# refmod: input A = 11000000010100100110111010110001, input B = 01000000111001010000001010000010, output OUT = 11000001101111000011111100010100
+# FPmul: input FP_A = -3.2880060673, input FP_B = 7.1565561295, output FP_Z = -23.5307998657
+# FPmul: input FP_A = 11000000010100100110111010110001, input FP_B = 01000000111001010000001010000010, output FP_Z = 11000001101111000011111100010100
+# UVM_INFO @ 2335: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.6550073624, input B = -3.5035390854, output OUT = 51.3443908691
+# refmod: input A = 11000001011010100111101011101001, input B = 11000000011000000011100111111100, output OUT = 01000010010011010110000010101000
+# FPmul: input FP_A = -14.6550073624, input FP_B = -3.5035390854, output FP_Z = 51.3443908691
+# FPmul: input FP_A = 11000001011010100111101011101001, input FP_B = 11000000011000000011100111111100, output FP_Z = 01000010010011010110000010101000
+# UVM_INFO @ 2395: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.1076388359, input B = -3.7551419735, output OUT = -11.6696252823
+# refmod: input A = 01000000010001101110001110001110, input B = 11000000011100000101010000111111, output OUT = 11000001001110101011011011001001
+# FPmul: input FP_A = 3.1076388359, input FP_B = -3.7551419735, output FP_Z = -11.6696252823
+# FPmul: input FP_A = 01000000010001101110001110001110, input FP_B = 11000000011100000101010000111111, output FP_Z = 11000001001110101011011011001001
+# UVM_INFO @ 2455: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.6062293053, input B = -3.8820569515, output OUT = -13.9995880127
+# refmod: input A = 01000000011001101100110001110110, input B = 11000000011110000111001110011111, output OUT = 11000001010111111111111001010000
+# FPmul: input FP_A = 3.6062293053, input FP_B = -3.8820569515, output FP_Z = -13.9995880127
+# FPmul: input FP_A = 01000000011001101100110001110110, input FP_B = 11000000011110000111001110011111, output FP_Z = 11000001010111111111111001010000
+# UVM_INFO @ 2515: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 15.1732816696, input B = 15.9649810791, output OUT = 242.2411499023
+# refmod: input A = 01000001011100101100010111000011, input B = 01000001011111110111000010010000, output OUT = 01000011011100100011110110111100
+# FPmul: input FP_A = 15.1732816696, input FP_B = 15.9649810791, output FP_Z = 242.2411499023
+# FPmul: input FP_A = 01000001011100101100010111000011, input FP_B = 01000001011111110111000010010000, output FP_Z = 01000011011100100011110110111100
+# UVM_INFO @ 2575: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.1363005638, input B = 3.2165911198, output OUT = -22.9545612335
+# refmod: input A = 11000000111001000101110010010011, input B = 01000000010011011101110010100001, output OUT = 11000001101101111010001011110001
+# FPmul: input FP_A = -7.1363005638, input FP_B = 3.2165911198, output FP_Z = -22.9545612335
+# FPmul: input FP_A = 11000000111001000101110010010011, input FP_B = 01000000010011011101110010100001, output FP_Z = 11000001101101111010001011110001
+# UVM_INFO @ 2635: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.0521373749, input B = -6.1774673462, output OUT = -37.3868827820
+# refmod: input A = 01000000110000011010101100011100, input B = 11000000110001011010110111010000, output OUT = 11000010000101011000110000101011
+# FPmul: input FP_A = 6.0521373749, input FP_B = -6.1774673462, output FP_Z = -37.3868827820
+# FPmul: input FP_A = 01000000110000011010101100011100, input FP_B = 11000000110001011010110111010000, output FP_Z = 11000010000101011000110000101011
+# UVM_INFO @ 2695: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.6444225311, input B = 3.4501314163, output OUT = 43.6249198914
+# refmod: input A = 01000001010010100100111110001110, input B = 01000000010111001100111011110100, output OUT = 01000010001011100111111111101011
+# FPmul: input FP_A = 12.6444225311, input FP_B = 3.4501314163, output FP_Z = 43.6249198914
+# FPmul: input FP_A = 01000001010010100100111110001110, input FP_B = 01000000010111001100111011110100, output FP_Z = 01000010001011100111111111101011
+# UVM_INFO @ 2755: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.8157706261, input B = 6.7031936646, output OUT = 25.5778503418
+# refmod: input A = 01000000011101000011010110010110, input B = 01000000110101101000000010010000, output OUT = 01000001110011001001111101110000
+# FPmul: input FP_A = 3.8157706261, input FP_B = 6.7031936646, output FP_Z = 25.5778503418
+# FPmul: input FP_A = 01000000011101000011010110010110, input FP_B = 01000000110101101000000010010000, output FP_Z = 01000001110011001001111101110000
+# UVM_INFO @ 2815: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.0288112164, input B = 15.3684711456, output OUT = 46.5481987000
+# refmod: input A = 01000000010000011101100000001011, input B = 01000001011101011110010101000010, output OUT = 01000010001110100011000101011011
+# FPmul: input FP_A = 3.0288112164, input FP_B = 15.3684711456, output FP_Z = 46.5481987000
+# FPmul: input FP_A = 01000000010000011101100000001011, input FP_B = 01000001011101011110010101000010, output FP_Z = 01000010001110100011000101011011
+# UVM_INFO @ 2875: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.1516356468, input B = 6.4354734421, output OUT = -46.0241622925
+# refmod: input A = 11000000111001001101101000110011, input B = 01000000110011011110111101100110, output OUT = 11000010001110000001100010111110
+# FPmul: input FP_A = -7.1516356468, input FP_B = 6.4354734421, output FP_Z = -46.0241622925
+# FPmul: input FP_A = 11000000111001001101101000110011, input FP_B = 01000000110011011110111101100110, output FP_Z = 11000010001110000001100010111110
+# UVM_INFO @ 2935: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.0138776302, input B = -15.0762825012, output OUT = 45.4380722046
+# refmod: input A = 11000000010000001110001101011111, input B = 11000001011100010011100001110100, output OUT = 01000010001101011100000010010110
+# FPmul: input FP_A = -3.0138776302, input FP_B = -15.0762825012, output FP_Z = 45.4380722046
+# FPmul: input FP_A = 11000000010000001110001101011111, input FP_B = 11000001011100010011100001110100, output FP_Z = 01000010001101011100000010010110
+# UVM_INFO @ 2995: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.9348168373, input B = 7.4704146385, output OUT = 51.8059577942
+# refmod: input A = 01000000110111011110101000000101, input B = 01000000111011110000110110100011, output OUT = 01000010010011110011100101001101
+# FPmul: input FP_A = 6.9348168373, input FP_B = 7.4704146385, output FP_Z = 51.8059577942
+# FPmul: input FP_A = 01000000110111011110101000000101, input FP_B = 01000000111011110000110110100011, output FP_Z = 01000010010011110011100101001101
+# UVM_INFO @ 3055: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 15.5479040146, input B = 14.1249599457, output OUT = 219.6135253906
+# refmod: input A = 01000001011110001100010000110111, input B = 01000001011000011111111111010110, output OUT = 01000011010110111001110100010000
+# FPmul: input FP_A = 15.5479040146, input FP_B = 14.1249599457, output FP_Z = 219.6135253906
+# FPmul: input FP_A = 01000001011110001100010000110111, input FP_B = 01000001011000011111111111010110, output FP_Z = 01000011010110111001110100010000
+# UVM_INFO @ 3115: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -13.3546409607, input B = -14.9735059738, output OUT = 199.9657897949
+# refmod: input A = 11000001010101011010110010011100, input B = 11000001011011111001001101111011, output OUT = 01000011010001111111011100111110
+# FPmul: input FP_A = -13.3546409607, input FP_B = -14.9735059738, output FP_Z = 199.9657897949
+# FPmul: input FP_A = 11000001010101011010110010011100, input FP_B = 11000001011011111001001101111011, output FP_Z = 01000011010001111111011100111110
+# UVM_INFO @ 3175: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.7351942062, input B = -7.9725451469, output OUT = 29.7790050507
+# refmod: input A = 11000000011011110000110101101100, input B = 11000000111111110001111100010111, output OUT = 01000001111011100011101101100111
+# FPmul: input FP_A = -3.7351942062, input FP_B = -7.9725451469, output FP_Z = 29.7790050507
+# FPmul: input FP_A = 11000000011011110000110101101100, input FP_B = 11000000111111110001111100010111, output FP_Z = 01000001111011100011101101100111
+# UVM_INFO @ 3235: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.5240392685, input B = -6.8211822510, output OUT = -44.5016593933
+# refmod: input A = 01000000110100001100010011101110, input B = 11000000110110100100011100100000, output OUT = 11000010001100100000000110110011
+# FPmul: input FP_A = 6.5240392685, input FP_B = -6.8211822510, output FP_Z = -44.5016593933
+# FPmul: input FP_A = 01000000110100001100010011101110, input FP_B = 11000000110110100100011100100000, output FP_Z = 11000010001100100000000110110011
+# UVM_INFO @ 3295: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.6910161972, input B = 3.6907868385, output OUT = -24.6951141357
+# refmod: input A = 11000000110101100001110011001110, input B = 01000000011011000011010111011010, output OUT = 11000001110001011000111110011000
+# FPmul: input FP_A = -6.6910161972, input FP_B = 3.6907868385, output FP_Z = -24.6951141357
+# FPmul: input FP_A = 11000000110101100001110011001110, input FP_B = 01000000011011000011010111011010, output FP_Z = 11000001110001011000111110011000
+# UVM_INFO @ 3355: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.2825593948, input B = 15.9607734680, output OUT = 52.3921852112
+# refmod: input A = 01000000010100100001010101110100, input B = 01000001011111110101111101010100, output OUT = 01000010010100011001000110011001
+# FPmul: input FP_A = 3.2825593948, input FP_B = 15.9607734680, output FP_Z = 52.3921852112
+# FPmul: input FP_A = 01000000010100100001010101110100, input FP_B = 01000001011111110101111101010100, output FP_Z = 01000010010100011001000110011001
+# UVM_INFO @ 3415: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.1964564323, input B = 15.9163846970, output OUT = 114.5415725708
+# refmod: input A = 01000000111001100100100101011111, input B = 01000001011111101010100110000011, output OUT = 01000010111001010001010101001001
+# FPmul: input FP_A = 7.1964564323, input FP_B = 15.9163846970, output FP_Z = 114.5415725708
+# FPmul: input FP_A = 01000000111001100100100101011111, input FP_B = 01000001011111101010100110000011, output FP_Z = 01000010111001010001010101001001
+# UVM_INFO @ 3475: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 14.4487972260, input B = 6.1492686272, output OUT = 88.8495330811
+# refmod: input A = 01000001011001110010111001000110, input B = 01000000110001001100011011001111, output OUT = 01000010101100011011001011110110
+# FPmul: input FP_A = 14.4487972260, input FP_B = 6.1492686272, output FP_Z = 88.8495330811
+# FPmul: input FP_A = 01000001011001110010111001000110, input FP_B = 01000000110001001100011011001111, output FP_Z = 01000010101100011011001011110110
+# UVM_INFO @ 3535: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.3502056599, input B = 3.9428493977, output OUT = -13.2093563080
+# refmod: input A = 11000000010101100110100111000101, input B = 01000000011111000101011110100101, output OUT = 11000001010100110101100110000110
+# FPmul: input FP_A = -3.3502056599, input FP_B = 3.9428493977, output FP_Z = -13.2093563080
+# FPmul: input FP_A = 11000000010101100110100111000101, input FP_B = 01000000011111000101011110100101, output FP_Z = 11000001010100110101100110000110
+# UVM_INFO @ 3595: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.7268209457, input B = -13.1143112183, output OUT = -101.3319320679
+# refmod: input A = 01000000111101110100001000011110, input B = 11000001010100011101010000111000, output OUT = 11000010110010101010100111110011
+# FPmul: input FP_A = 7.7268209457, input FP_B = -13.1143112183, output FP_Z = -101.3319320679
+# FPmul: input FP_A = 01000000111101110100001000011110, input FP_B = 11000001010100011101010000111000, output FP_Z = 11000010110010101010100111110011
+# UVM_INFO @ 3655: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.8416304588, input B = -3.3203766346, output OUT = 22.7167892456
+# refmod: input A = 11000000110110101110111010100011, input B = 11000000010101001000000100001101, output OUT = 01000001101101011011101111111100
+# FPmul: input FP_A = -6.8416304588, input FP_B = -3.3203766346, output FP_Z = 22.7167892456
+# FPmul: input FP_A = 11000000110110101110111010100011, input FP_B = 11000000010101001000000100001101, output FP_Z = 01000001101101011011101111111100
+# UVM_INFO @ 3715: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.7216696739, input B = -7.5932636261, output OUT = -58.6326751709
+# refmod: input A = 01000000111101110001011111101011, input B = 11000000111100101111110000000100, output OUT = 11000010011010101000011111011100
+# FPmul: input FP_A = 7.7216696739, input FP_B = -7.5932636261, output FP_Z = -58.6326751709
+# FPmul: input FP_A = 01000000111101110001011111101011, input FP_B = 11000000111100101111110000000100, output FP_Z = 11000010011010101000011111011100
+# UVM_INFO @ 3775: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.7887518406, input B = 6.3922638893, output OUT = -24.2187023163
+# refmod: input A = 11000000011100100111101011101001, input B = 01000000110011001000110101101101, output OUT = 11000001110000011011111111100111
+# FPmul: input FP_A = -3.7887518406, input FP_B = 6.3922638893, output FP_Z = -24.2187023163
+# FPmul: input FP_A = 11000000011100100111101011101001, input FP_B = 01000000110011001000110101101101, output FP_Z = 11000001110000011011111111100111
+# UVM_INFO @ 3835: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.9890031815, input B = -3.2123866081, output OUT = -22.4513797760
+# refmod: input A = 01000000110111111010010111101010, input B = 11000000010011011001011110111110, output OUT = 11000001101100111001110001101101
+# FPmul: input FP_A = 6.9890031815, input FP_B = -3.2123866081, output FP_Z = -22.4513797760
+# FPmul: input FP_A = 01000000110111111010010111101010, input FP_B = 11000000010011011001011110111110, output FP_Z = 11000001101100111001110001101101
+# UVM_INFO @ 3895: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.5526444912, input B = -6.9094648361, output OUT = 24.5468730927
+# refmod: input A = 11000000011000110101111010000111, input B = 11000000110111010001101001010110, output OUT = 01000001110001000101111111111111
+# FPmul: input FP_A = -3.5526444912, input FP_B = -6.9094648361, output FP_Z = 24.5468730927
+# FPmul: input FP_A = 11000000011000110101111010000111, input FP_B = 11000000110111010001101001010110, output FP_Z = 01000001110001000101111111111111
+# UVM_INFO @ 3955: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.1108922958, input B = -7.3927211761, output OUT = -89.5324478149
+# refmod: input A = 01000001010000011100011000110111, input B = 11000000111011001001000100101100, output OUT = 11000010101100110001000010011101
+# FPmul: input FP_A = 12.1108922958, input FP_B = -7.3927211761, output FP_Z = -89.5324478149
+# FPmul: input FP_A = 01000001010000011100011000110111, input FP_B = 11000000111011001001000100101100, output FP_Z = 11000010101100110001000010011101
+# UVM_INFO @ 4015: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.9933524132, input B = -3.5930900574, output OUT = 28.7208347321
+# refmod: input A = 11000000111111111100100110001011, input B = 11000000011001011111010100110000, output OUT = 01000001111001011100010001000101
+# FPmul: input FP_A = -7.9933524132, input FP_B = -3.5930900574, output FP_Z = 28.7208347321
+# FPmul: input FP_A = 11000000111111111100100110001011, input FP_B = 11000000011001011111010100110000, output FP_Z = 01000001111001011100010001000101
+# UVM_INFO @ 4075: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.3482375145, input B = -14.8414907455, output OUT = 94.2173080444
+# refmod: input A = 11000000110010110010010011000011, input B = 11000001011011010111011010111111, output OUT = 01000010101111000110111101000011
+# FPmul: input FP_A = -6.3482375145, input FP_B = -14.8414907455, output FP_Z = 94.2173080444
+# FPmul: input FP_A = 11000000110010110010010011000011, input FP_B = 11000001011011010111011010111111, output FP_Z = 01000010101111000110111101000011
+# UVM_INFO @ 4135: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.7014551163, input B = 15.2948484421, output OUT = -56.6131935120
+# refmod: input A = 11000000011011001110010010100100, input B = 01000001011101001011011110110011, output OUT = 11000010011000100111001111101001
+# FPmul: input FP_A = -3.7014551163, input FP_B = 15.2948484421, output FP_Z = -56.6131935120
+# FPmul: input FP_A = 11000000011011001110010010100100, input FP_B = 01000001011101001011011110110011, output FP_Z = 11000010011000100111001111101001
+# UVM_INFO @ 4195: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.0741984844, input B = 3.2045359612, output OUT = -9.8513793945
+# refmod: input A = 11000000010001001011111110101011, input B = 01000000010011010001011100011110, output OUT = 11000001000111011001111101000000
+# FPmul: input FP_A = -3.0741984844, input FP_B = 3.2045359612, output FP_Z = -9.8513793945
+# FPmul: input FP_A = 11000000010001001011111110101011, input FP_B = 01000000010011010001011100011110, output FP_Z = 11000001000111011001111101000000
+# UVM_INFO @ 4255: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 14.9058599472, input B = -15.9485540390, output OUT = -237.7269134521
+# refmod: input A = 01000001011011100111111001100111, input B = 11000001011111110010110101000111, output OUT = 11000011011011011011101000010111
+# FPmul: input FP_A = 14.9058599472, input FP_B = -15.9485540390, output FP_Z = -237.7269134521
+# FPmul: input FP_A = 01000001011011100111111001100111, input FP_B = 11000001011111110010110101000111, output FP_Z = 11000011011011011011101000010111
+# UVM_INFO @ 4315: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.0880656242, input B = -12.0368022919, output OUT = 37.1704368591
+# refmod: input A = 11000000010001011010001011011110, input B = 11000001010000001001011010111110, output OUT = 01000010000101001010111010000111
+# FPmul: input FP_A = -3.0880656242, input FP_B = -12.0368022919, output FP_Z = 37.1704368591
+# FPmul: input FP_A = 11000000010001011010001011011110, input FP_B = 11000001010000001001011010111110, output FP_Z = 01000010000101001010111010000111
+# UVM_INFO @ 4375: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -3.7258920670, input B = -7.4498286247, output OUT = 27.7572574615
+# refmod: input A = 11000000011011100111010100000100, input B = 11000000111011100110010011111111, output OUT = 01000001110111100000111011011101
+# FPmul: input FP_A = -3.7258920670, input FP_B = -7.4498286247, output FP_Z = 27.7572574615
+# FPmul: input FP_A = 11000000011011100111010100000100, input FP_B = 11000000111011100110010011111111, output FP_Z = 01000001110111100000111011011101
+# UVM_INFO @ 4435: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.7873191833, input B = 6.1588330269, output OUT = -47.9608001709
+# refmod: input A = 11000000111110010011000110111000, input B = 01000000110001010001010100101001, output OUT = 11000010001111111101011111011100
+# FPmul: input FP_A = -7.7873191833, input FP_B = 6.1588330269, output FP_Z = -47.9608001709
+# FPmul: input FP_A = 11000000111110010011000110111000, input FP_B = 01000000110001010001010100101001, output FP_Z = 11000010001111111101011111011100
+# UVM_INFO @ 4495: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -15.8634481430, input B = -12.4464330673, output OUT = 197.4433441162
+# refmod: input A = 11000001011111011101000010101111, input B = 11000001010001110010010010010111, output OUT = 01000011010001010111000101111111
+# FPmul: input FP_A = -15.8634481430, input FP_B = -12.4464330673, output FP_Z = 197.4433441162
+# FPmul: input FP_A = 11000001011111011101000010101111, input FP_B = 11000001010001110010010010010111, output FP_Z = 01000011010001010111000101111111
+# UVM_INFO @ 4555: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.5731573105, input B = -3.1290841103, output OUT = 45.6006355286
+# refmod: input A = 11000001011010010010101110100111, input B = 11000000010010000100001011101010, output OUT = 01000010001101100110011100001101
+# FPmul: input FP_A = -14.5731573105, input FP_B = -3.1290841103, output FP_Z = 45.6006355286
+# FPmul: input FP_A = 11000001011010010010101110100111, input FP_B = 11000000010010000100001011101010, output FP_Z = 01000010001101100110011100001101
+# UVM_INFO @ 4615: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 3.7171511650, input B = -15.3103847504, output OUT = -56.9110145569
+# refmod: input A = 01000000011011011110010111001110, input B = 11000001011101001111011101010110, output OUT = 11000010011000111010010011100001
+# FPmul: input FP_A = 3.7171511650, input FP_B = -15.3103847504, output FP_Z = -56.9110145569
+# FPmul: input FP_A = 01000000011011011110010111001110, input FP_B = 11000001011101001111011101010110, output FP_Z = 11000010011000111010010011100001
+# UVM_INFO @ 4675: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.7371568680, input B = -13.2214918137, output OUT = -168.4042205811
+# refmod: input A = 01000001010010111100101101100101, input B = 11000001010100111000101100111011, output OUT = 11000011001010000110011101111011
+# FPmul: input FP_A = 12.7371568680, input FP_B = -13.2214918137, output FP_Z = -168.4042205811
+# FPmul: input FP_A = 01000001010010111100101101100101, input FP_B = 11000001010100111000101100111011, output FP_Z = 11000011001010000110011101111011
+# UVM_INFO @ 4735: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.7237725258, input B = 3.7827765942, output OUT = 29.2173061371
+# refmod: input A = 01000000111101110010100100100101, input B = 01000000011100100001100100000011, output OUT = 01000001111010011011110100001011
+# FPmul: input FP_A = 7.7237725258, input FP_B = 3.7827765942, output FP_Z = 29.2173061371
+# FPmul: input FP_A = 01000000111101110010100100100101, input FP_B = 01000000011100100001100100000011, output FP_Z = 01000001111010011011110100001011
+# UVM_INFO @ 4795: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.9584722519, input B = 15.4951686859, output OUT = 123.3178710938
+# refmod: input A = 01000000111111101010101111001110, input B = 01000001011101111110110000110110, output OUT = 01000010111101101010001011000000
+# FPmul: input FP_A = 7.9584722519, input FP_B = 15.4951686859, output FP_Z = 123.3178710938
+# FPmul: input FP_A = 01000000111111101010101111001110, input FP_B = 01000001011101111110110000110110, output FP_Z = 01000010111101101010001011000000
+# UVM_INFO @ 4855: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.3372230530, input B = 3.6502730846, output OUT = 23.1325950623
+# refmod: input A = 01000000110010101100101010001000, input B = 01000000011010011001111000010011, output OUT = 01000001101110010000111110001110
+# FPmul: input FP_A = 6.3372230530, input FP_B = 3.6502730846, output FP_Z = 23.1325950623
+# FPmul: input FP_A = 01000000110010101100101010001000, input FP_B = 01000000011010011001111000010011, output FP_Z = 01000001101110010000111110001110
+# UVM_INFO @ 4915: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 13.0800237656, input B = -3.0178902149, output OUT = -39.4740753174
+# refmod: input A = 01000001010100010100011111000111, input B = 11000000010000010010010100011101, output OUT = 11000010000111011110010101110100
+# FPmul: input FP_A = 13.0800237656, input FP_B = -3.0178902149, output FP_Z = -39.4740753174
+# FPmul: input FP_A = 01000001010100010100011111000111, input FP_B = 11000000010000010010010100011101, output FP_Z = 11000010000111011110010101110100
+# UVM_INFO @ 4975: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -12.1724805832, input B = 12.9859285355, output OUT = -158.0709686279
+# refmod: input A = 11000001010000101100001001111011, input B = 01000001010011111100011001011101, output OUT = 11000011000111100001001000101011
+# FPmul: input FP_A = -12.1724805832, input FP_B = 12.9859285355, output FP_Z = -158.0709686279
+# FPmul: input FP_A = 11000001010000101100001001111011, input FP_B = 01000001010011111100011001011101, output FP_Z = 11000011000111100001001000101011
+# UVM_INFO @ 5035: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.4571008682, input B = -3.2088334560, output OUT = -39.9727630615
+# refmod: input A = 01000001010001110101000001001001, input B = 11000000010011010101110110000111, output OUT = 11000010000111111110010000011100
+# FPmul: input FP_A = 12.4571008682, input FP_B = -3.2088334560, output FP_Z = -39.9727630615
+# FPmul: input FP_A = 01000001010001110101000001001001, input FP_B = 11000000010011010101110110000111, output FP_Z = 11000010000111111110010000011100
+# UVM_INFO @ 5095: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.2253170013, input B = 7.3956003189, output OUT = 90.4135589600
+# refmod: input A = 01000001010000111001101011100110, input B = 01000000111011001010100011000010, output OUT = 01000010101101001101001110111110
+# FPmul: input FP_A = 12.2253170013, input FP_B = 7.3956003189, output FP_Z = 90.4135589600
+# FPmul: input FP_A = 01000001010000111001101011100110, input FP_B = 01000000111011001010100011000010, output FP_Z = 01000010101101001101001110111110
+# UVM_INFO @ 5155: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.3815727234, input B = 7.2498383522, output OUT = -104.2640762329
+# refmod: input A = 11000001011001100001101011101100, input B = 01000000111001111111111010101101, output OUT = 11000010110100001000011100110101
+# FPmul: input FP_A = -14.3815727234, input FP_B = 7.2498383522, output FP_Z = -104.2640762329
+# FPmul: input FP_A = 11000001011001100001101011101100, input FP_B = 01000000111001111111111010101101, output FP_Z = 11000010110100001000011100110101
+# UVM_INFO @ 5215: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -6.5728754997, input B = 7.6899323463, output OUT = -50.5449676514
+# refmod: input A = 11000000110100100101010011111111, input B = 01000000111101100001001111101101, output OUT = 11000010010010100010111000001100
+# FPmul: input FP_A = -6.5728754997, input FP_B = 7.6899323463, output FP_Z = -50.5449676514
+# FPmul: input FP_A = 11000000110100100101010011111111, input FP_B = 01000000111101100001001111101101, output FP_Z = 11000010010010100010111000001100
+# UVM_INFO @ 5275: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.4767313004, input B = -12.6737623215, output OUT = 183.4746551514
+# refmod: input A = 11000001011001111010000010110001, input B = 11000001010010101100011110111011, output OUT = 01000011001101110111100110000011
+# FPmul: input FP_A = -14.4767313004, input FP_B = -12.6737623215, output FP_Z = 183.4746551514
+# FPmul: input FP_A = 11000001011001111010000010110001, input FP_B = 11000001010010101100011110111011, output FP_Z = 01000011001101110111100110000011
+# UVM_INFO @ 5335: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 15.6439800262, input B = 3.9900727272, output OUT = 62.4206161499
+# refmod: input A = 01000001011110100100110110111110, input B = 01000000011111110101110101011010, output OUT = 01000010011110011010111010110110
+# FPmul: input FP_A = 15.6439800262, input FP_B = 3.9900727272, output FP_Z = 62.4206161499
+# FPmul: input FP_A = 01000001011110100100110110111110, input FP_B = 01000000011111110101110101011010, output FP_Z = 01000010011110011010111010110110
+# UVM_INFO @ 5395: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.2537298203, input B = 3.2427773476, output OUT = 23.5222301483
+# refmod: input A = 01000000111010000001111010001110, input B = 01000000010011111000100110101010, output OUT = 01000001101111000010110110000111
+# FPmul: input FP_A = 7.2537298203, input FP_B = 3.2427773476, output FP_Z = 23.5222301483
+# FPmul: input FP_A = 01000000111010000001111010001110, input FP_B = 01000000010011111000100110101010, output FP_Z = 01000001101111000010110110000111
+# UVM_INFO @ 5455: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.4896173477, input B = -15.9053697586, output OUT = -103.2197647095
+# refmod: input A = 01000000110011111010101011110010, input B = 11000001011111100111110001100101, output OUT = 11000010110011100111000010000101
+# FPmul: input FP_A = 6.4896173477, input FP_B = -15.9053697586, output FP_Z = -103.2197647095
+# FPmul: input FP_A = 01000000110011111010101011110010, input FP_B = 11000001011111100111110001100101, output FP_Z = 11000010110011100111000010000101
+# UVM_INFO @ 5515: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 6.2659025192, input B = -7.8413734436, output OUT = -49.1332817078
+# refmod: input A = 01000000110010001000001001000110, input B = 11000000111110101110110010001000, output OUT = 11000010010001001000100001111011
+# FPmul: input FP_A = 6.2659025192, input FP_B = -7.8413734436, output FP_Z = -49.1332817078
+# FPmul: input FP_A = 01000000110010001000001001000110, input FP_B = 11000000111110101110110010001000, output FP_Z = 11000010010001001000100001111011
+# UVM_INFO @ 5575: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.4982218742, input B = -7.8886022568, output OUT = -59.1504898071
+# refmod: input A = 01000000111011111111000101101111, input B = 11000000111111000110111101101110, output OUT = 11000010011011001001101000011010
+# FPmul: input FP_A = 7.4982218742, input FP_B = -7.8886022568, output FP_Z = -59.1504898071
+# FPmul: input FP_A = 01000000111011111111000101101111, input FP_B = 11000000111111000110111101101110, output FP_Z = 11000010011011001001101000011010
+# UVM_INFO @ 5635: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.3836116791, input B = -7.3881936073, output OUT = 106.2689056396
+# refmod: input A = 11000001011001100010001101000110, input B = 11000000111011000110110000010101, output OUT = 01000010110101001000100110101110
+# FPmul: input FP_A = -14.3836116791, input FP_B = -7.3881936073, output FP_Z = 106.2689056396
+# FPmul: input FP_A = 11000001011001100010001101000110, input FP_B = 11000000111011000110110000010101, output FP_Z = 01000010110101001000100110101110
+# UVM_INFO @ 5695: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 7.8595175743, input B = 3.1247549057, output OUT = 24.5590667725
+# refmod: input A = 01000000111110111000000100101011, input B = 01000000010001111111101111111100, output OUT = 01000001110001000111100011111000
+# FPmul: input FP_A = 7.8595175743, input FP_B = 3.1247549057, output FP_Z = 24.5590667725
+# FPmul: input FP_A = 01000000111110111000000100101011, input FP_B = 01000000010001111111101111111100, output FP_Z = 01000001110001000111100011111000
+# UVM_INFO @ 5755: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -14.6799468994, input B = 7.0632677078, output OUT = -103.6883926392
+# refmod: input A = 11000001011010101110000100010000, input B = 01000000111000100000011001001010, output OUT = 11000010110011110110000001110101
+# FPmul: input FP_A = -14.6799468994, input FP_B = 7.0632677078, output FP_Z = -103.6883926392
+# FPmul: input FP_A = 11000001011010101110000100010000, input FP_B = 01000000111000100000011001001010, output FP_Z = 11000010110011110110000001110101
+# UVM_INFO @ 5815: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -12.9795894623, input B = -3.8760197163, output OUT = 50.3091430664
+# refmod: input A = 11000001010011111010110001100110, input B = 11000000011110000001000010110101, output OUT = 01000010010010010011110010010000
+# FPmul: input FP_A = -12.9795894623, input FP_B = -3.8760197163, output FP_Z = 50.3091430664
+# FPmul: input FP_A = 11000001010011111010110001100110, input FP_B = 11000000011110000001000010110101, output FP_Z = 01000010010010010011110010010000
+# UVM_INFO @ 5875: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.8431091309, input B = -13.6014957428, output OUT = -174.6855010986
+# refmod: input A = 01000001010011010111110101100000, input B = 11000001010110011001111110111010, output OUT = 11000011001011101010111101111101
+# FPmul: input FP_A = 12.8431091309, input FP_B = -13.6014957428, output FP_Z = -174.6855010986
+# FPmul: input FP_A = 01000001010011010111110101100000, input FP_B = 11000001010110011001111110111010, output FP_Z = 11000011001011101010111101111101
+# UVM_INFO @ 5935: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 12.3367309570, input B = -3.6867635250, output OUT = -45.4826087952
+# refmod: input A = 01000001010001010110001101000000, input B = 11000000011010111111001111101111, output OUT = 11000010001101011110111000110001
+# FPmul: input FP_A = 12.3367309570, input FP_B = -3.6867635250, output FP_Z = -45.4826087952
+# FPmul: input FP_A = 01000001010001010110001101000000, input FP_B = 11000000011010111111001111101111, output FP_Z = 11000010001101011110111000110001
+# UVM_INFO @ 5995: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = -7.9346323013, input B = -12.2214565277, output OUT = 96.9727630615
+# refmod: input A = 11000000111111011110100010000010, input B = 11000001010000111000101100010110, output OUT = 01000010110000011111001000001110
+# FPmul: input FP_A = -7.9346323013, input FP_B = -12.2214565277, output FP_Z = 96.9727630615
+# FPmul: input FP_A = 11000000111111011110100010000010, input FP_B = 11000001010000111000101100010110, output FP_Z = 01000010110000011111001000001110
+# UVM_INFO @ 6055: uvm_test_top.env_h.comp [Comparator Match] 
+# 
+# 
+# refmod: input A = 13.6758108139, input B = 3.7088696957, output OUT = 50.7218017578
+# refmod: input A = 01000001010110101101000000011111, input B = 01000000011011010101111000011111, output OUT = 01000010010010101110001100100000
+# FPmul: input FP_A = 13.6758108139, input FP_B = 3.7088696957, output FP_Z = 50.7218017578
+# FPmul: input FP_A = 01000001010110101101000000011111, input FP_B = 01000000011011010101111000011111, output FP_Z = 01000010010010101110001100100000
+# UVM_INFO @ 6115: uvm_test_top.env_h.comp [Comparator Match] 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 6115: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../tb/env.sv(42) @ 6115: uvm_test_top.env_h [env] Reporting matched 101
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  106
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Comparator Match]   101
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [env]     1
+# ** Note: $finish    : /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 6115 ns  Iteration: 58  Instance: /top
+# End time: 13:42:28 on Feb 25,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 21
